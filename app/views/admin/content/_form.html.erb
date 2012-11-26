@@ -149,5 +149,16 @@
   </div>    
   </div>
 
+  <div class=''>
+    <h4><%= _("Merge") %></h4>
+     <div class='class'>
+      <label for="merge_article_id"><%= _("Article Id")%>:</label>
+      <%= text_field 'article', 'keywords', {:autocomplete => 'off', :style => 'width: 20%'} %>
+	<%= submit_tag(_('Merge'), {:class => 'btn'}) -%>
+    </div>
+
+  </div>
+  </div>
+
 </div>
 
